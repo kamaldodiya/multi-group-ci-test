@@ -4,7 +4,7 @@ stages:
 
 # Default variables available across all the jobs
 variables:
-  DOCKER_IMAGE: ${CI_REGISTRY_IMAGE}:${CI_COMMIT_SHORT_SHA}
+  DOCKER_IMAGE: ${CI_REGISTRY_IMAGE}:${CI_COMMIT_SHORT_SHA}-web
   DOCKER_TLS_CERTDIR: ""
 
 # Template to build docker image
