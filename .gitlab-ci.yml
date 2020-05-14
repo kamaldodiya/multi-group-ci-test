@@ -1,6 +1,1 @@
-include:
-  - project: 'kamal/multi-group-ci-test'
-    file: '/ci-templates/apps-gitlab-ci.yaml'
 
-  - project: 'ensembl-web/multi-group-ci-test'
-    file: '/ci-templates/web-gitlab-ci.yaml'
